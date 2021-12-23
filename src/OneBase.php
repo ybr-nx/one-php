@@ -30,7 +30,7 @@ class OneBase {
     /**
      * @var \string[][]
      */
-    private static $errorCodes = [
+    protected static $errorCodes = [
         256 => [
             'Authentication',
             'User could not be authenticated.'
@@ -65,7 +65,7 @@ class OneBase {
         ]
     ];
 
-    private static $xmlrpcTypes = [
+    protected static $xmlrpcTypes = [
         "boolean" => "boolean",
         "integer" => "int",
         "double" => "double",
